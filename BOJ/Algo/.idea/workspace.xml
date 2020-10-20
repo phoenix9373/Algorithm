@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="707e8543-2700-4f50-b383-ae2a87d3bd0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../1018_체스판 다시 칠하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10814_나이순 정렬.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11650_좌표정렬하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11651_좌표정렬하기2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1181_단어 정렬.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1216_회문2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1427_소트인사이드.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1436_영화감독숌.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2108_통계학.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2231_분해합.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2750_수정렬하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2751_수정렬하기2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2798_블랙잭.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7568_덩치.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo1_대전_2반_유진우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo2_대전_2반_유진우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo3_대전_2반_유진우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BFS/BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BFS/BFS_with_Dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BFS/BFS_with_Example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BFS/BFS_연습.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BFS/BFS_인접리스트_연습.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BFS/인접리스트.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DFS_BFS/18352_특정 거리의 도시 찾기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DFS_BFS/2606_바이러스.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DFS_BFS/2667_단지번호붙이기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/1220_Magnetic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/1224_계산기3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/1224_계산기3_풀이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/1226_미로1_BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/1226_미로1_DFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/1226_미로1_스택.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/1227_미로2_BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/1238_Contact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/1267_작업순서.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/1267_작업순서_DFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/1267_작업순서_교수님풀이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/1267_작업순서_교수님풀이2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/1267_작업순서_세진풀이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/1486_장훈이의 높은 선반.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/1486_장훈이의 높은 선반_다시.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/1486_장훈이의 높은 선반_병훈.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/1861_정사각형 방.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/2819_격자의 숫자 이어 붙이기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/4047_영준이의 카드 카운팅.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/4613_러시아 국기 같은 깃발.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/4613_러시아 국기 같은 깃발_풀이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/7465_창용 마을 무리의 개수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/Baby-gin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/SWEA_1979_어디에단어가들어갈수있을까_유진우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/SWEA_4874_Forth_유진우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/SWEA_4875_미로_유진우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/SWEA_4881_배열최소합_유진우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/SWEA_5097_회전_유진우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/SWEA_5102_노드의 거리_유진우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/SWEA_5105_미로의거리_유진우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/swea_1210_Ladder1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/swea_1211_Ladder2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/swea_1211_Ladder2_풀이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/swea_1218_괄호짝짓기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/swea_1219_길찾기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/swea_4615.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/순열_BitMask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/순열_swap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/순열_반복문.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/순열_방문체크.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SWEA_과제/순열_방문체크2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String/atoi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String/itoa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String/보이어무어.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../String/브루트포스.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack/01_DFS_내풀이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack/01_memoization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack/01_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack/02_fibo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack/02_memoization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack/02_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack/03_fibo_with_dp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack/03_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack/DFS_강의.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack/DFS_스택.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack/DFS_재귀.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack/DFS순회_개수세기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack/DP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack/계산기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack/괄호검사.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack/미로.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../길찾기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../동적계획법/1003_피보나치 함수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../동적계획법/1149_RGB거리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../동적계획법/1904_01타일.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../동적계획법/2748_피보나치2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../동적계획법/9461_파도반 수열.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/(9) test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/14888_연산자 끼워넣기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/15649_N과M(1).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/15650_N과M(2).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/15651_N과M(3).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/15652_N과M(4).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/15654_N과M(5).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/15655_N과M(6).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/15656_N과M(7).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/15657_N과M(8).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/15663_N과M(9).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/15664_N과 M(10).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/15665_N과M(11).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/15666_N과M(12).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/9663_N-Queen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/9663_N-Queen_다시.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/N_Queen문제.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/PowerSet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/PowerSet_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/SWEA_1865_동철이의 일 분배.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/SWEA_3752_가능한 시험 점수(알려진 풀이, 성공).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/SWEA_3752_가능한 시험 점수(중복 제거, 실패).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/SWEA_3752_가능한 시험 점수_재귀(실패).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백트래킹/부분집합_재귀.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../수학1/1193_분수찾기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../수학1/1712_손익분기점.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../수학1/2292_벌집.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../수학1/2839_설탕 배달.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../스택/10773_제로.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../스택/10828_스택.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../스택/9012_괄호.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../조합/SWEA_1486_장훈이의 높은 선반_비트마스크.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../조합/조합_반복.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../조합/조합_재귀.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../큐/문제풀이_5097_회전.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../큐/문제풀이_5099_피자굽기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../큐/원형큐.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../큐/큐.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../큐/큐_py스타일.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../트리/1231_중위순회.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../트리/2차원 배열로 받기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../트리/SWEA_1232_사칙연산.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../트리/SWEA_5174_Subtree_유진우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../트리/SWEA_5176_이진탐색_유진우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../트리/SWEA_5177_이진힙_유진우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../트리/SWEA_5178_노드의 합_유진우.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../트리/연습.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../트리/연습_트리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../트리/연습문제_전위순회.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../트리/연습문제_풀이.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../트리/최소힙.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../트리/최소힙_Lib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10505_소득불균형.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5603_건초더미.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5607_조합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5642_합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../input.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1hJhtN7CHIR5KkNOrOHSqip1W9D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="707e8543-2700-4f50-b383-ae2a87d3bd0c" name="Default Changelist" comment="" />
+      <created>1599735318352</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599735318352</updated>
+    </task>
+    <servers />
+  </component>
+</project>
