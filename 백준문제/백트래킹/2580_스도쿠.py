@@ -1,35 +1,45 @@
-# 2020.11.04 미완
-
-import sys
-
-sys.stdin = open('input.txt', 'r')
-
-maps = [list(map(int, input().split())) for _ in range(9)]
-
-starts = [[i, j] for i in range(9) for j in range(9) if maps[i][j] == 0]
-visited = [0] * len(starts)
+arr = [list(map(int,input().split())) for _ in range(9)]
+holes = []
+holes = [(i, j) for i in range(9) for j in range(9) if arr[i][j] == 0]
 
 
-def sol(cnt):
-    if cnt == len(starts):
-        for x in range(9):
-            print(*maps[x])
+def check(x, y):
+    tmp = [i for i in range(1, 10)]
+    for j in range(9):
+        if arr[x][j] in tmp:
+            tmp.remove(arr[x][j])
+        if arr[j][y] in tmp:
+            tmp.remove(arr[j][y])
+
+    nx = (x // 3) * 3
+    ny = (y // 3) * 3
+
+    for i in range(nx, nx + 3):
+        for j in range(ny, ny + 3):
+            if arr[i][j] in tmp:
+                tmp.remove(arr[i][j])
+    return tmp
+
+
+flag = False
+def sol(idx):
+    global flag
+
+    if flag:
         return
 
-    v = starts[cnt]
-    i, j = v[0], v[1]
-    ni, nj = (i // 3) * 3, (j // 3) * 3
-
-    tmp = [maps[di][dj] for di in range(ni, ni + 3) for dj in range(nj, nj + 3) if maps[di][dj] != 0]
-    cands = [k for k in range(1, 10) if k not in maps[i] and k not in list(zip(*maps))[j] and k not in tmp]
-
-    if not cands:
+    if idx == len(holes):
+        for row in arr:
+            print(*row)
+        flag = True
         return
 
-    for w in cands:
-        maps[i][j] = w
-        sol(cnt + 1)
+    x, y = holes[idx]
+    temp = check(x, y)
 
+    for w in temp:
+        arr[x][y] = w
+        sol(idx + 1)
+        arr[x][y] = 0
 
 sol(0)
-# print(*maps, sep='\n')
