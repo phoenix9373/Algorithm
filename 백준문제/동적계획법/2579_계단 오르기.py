@@ -1,19 +1,16 @@
 N = int(input())
-scores = [int(input()) for _ in range(N)]
-DP = [0] * N
+stairs = [int(input()) for _ in range(N)]
 
+dp = [0] * N
 
-def dp(arr, dp_arr, n):
-    dp_arr[0] = arr[0]
-    dp_arr[1] = max(arr[0] + arr[1], arr[1])
-    dp_arr[2] = max(arr[1] + arr[2], arr[0] + arr[2])
+for i in range(N):
+    if i == 0:
+        dp[i] = stairs[0]
+    elif i == 1:
+        dp[i] = dp[i - 1] + stairs[i]
+    elif i == 2:
+        dp[i] = max(stairs[i - 1], stairs[i - 2]) + stairs[i]
+    else:
+        dp[i] = max(dp[i - 2], dp[i - 3] + stairs[i - 1]) + stairs[i]
 
-    if n > 3:
-        for i in range(3, n):
-            dp_arr[i] = max(dp_arr[i - 3] + arr[i - 1] + arr[i], dp_arr[i - 2] + arr[i])
-
-    return dp_arr[-1]
-
-
-res = dp(scores, DP, N - 1)
-print(res)
+print(dp[-1])

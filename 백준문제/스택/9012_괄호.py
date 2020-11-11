@@ -1,23 +1,17 @@
-import sys
-N = int(sys.stdin.readline())
-
-def VPS(s):
+for tc in range(int(input())):
+    info = input()
     stack = []
 
-    for idx, i in enumerate(s):
-        if i == '(':
-            stack.append(i)
+    for c in info:
+        if c == '(':
+            stack.append(c)
         else:
             if len(stack) == 0:
-                return 'NO'
-            else:
-                stack.pop()
-
-    if len(stack) == 0:
-        return 'YES'
+                print('NO')
+                break
+            stack.pop()
     else:
-        return 'NO'
-
-for _ in range(N):
-    tmp = sys.stdin.readline()
-    print(VPS(tmp))
+        if stack:
+            print('NO')
+        else:
+            print('YES')

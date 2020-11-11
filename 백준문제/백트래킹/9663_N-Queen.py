@@ -1,29 +1,18 @@
-def check(row, col):
-    for i in range(row):
-        if row - i == abs(col - sel[i]):
-            return True # 대각선에 걸림.
-    return False # 대각선에 걸리지 않음.
+n, ans = int(input()), 0
+a, b, c = [False] * n, [False] * (2 * n - 1), [False] * (2 * n - 1)
 
-def back(row):
-    global cnt
-    if row == n:
-        cnt += 1
+
+def sol(i):
+    global ans
+    if i == n:
+        ans += 1
         return
-
-    for col in range(n):
-        if visited_col[col]:
-            continue
-        if check(row, col):
-            continue
-        sel[row] = col # row idx에 col 번호를 저장.
-        visited_col[col] = 1 # 방문한 열을 표시.
-        back(row + 1)
-        visited_col[col] = 0
+    for j in range(n):
+        if not (a[j] or b[i+j] or c[j-i+n-1]):
+            a[j] = b[i + j] = c[j - i + n - 1] = True
+            sol(i + 1)
+            a[j] = b[i + j] = c[j - i + n - 1] = False
 
 
-n = int(input())
-sel = [0] * n
-visited_col = [0] * n # columns 전체.
-cnt = 0
-back(0)
-print(cnt)
+sol(0)
+print(ans)
