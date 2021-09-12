@@ -3,8 +3,10 @@ function solution(arr) {
     sum = 0,
     min = Number.MAX_SAFE_INTEGER;
   for (const v of arr) {
-    if (v % 2 === 1) sum += v;
-    if (v % 2 === 1 && min > v) min = v;
+    if (v % 2 === 1) {
+      sum += v;
+      if (min > v) min = v;
+    }
   }
   console.log(sum);
   console.log(min);
