@@ -1,0 +1,37 @@
+# 입력 1
+N = 학생수 (1 <= N <=1000)
+M = 예산 (1 <= M <= 100,000,000)
+
+# 입력 2
+products = [(상품가격, 배송비), ...]
+
+# 상품 가격 < 100,000
+# 배송비 < 100,000
+
+solution (N, M, products) {
+    # 초기화
+    Ans = 0, 최대 학생수
+
+    # 상품 가격 기준 오름차순 정렬
+    products.sort((a, b) => a[0] - b[0])
+
+    # 작은 값부터 순차적으로 돌면서 최대 학생 수를 구함.
+    total = 0
+
+    for product of products
+        # 비용 추가
+        total += product[0] + product[1]
+
+        # 가장 비싼 상품을 할인한 값
+        subtotal = total - product[0] / 2
+
+        # 예산 이내면 최대 학생 수 증가
+        if (subtotal <= M) {
+            Ans++
+        } else {
+            # 예산 초과면 종료
+            return Ans
+        }
+    
+    return Ans
+}
