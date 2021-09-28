@@ -1,0 +1,44 @@
+N = 1 ~ 100 중 자연수가 적힌 카드 N개
+K = K번째로 큰 값
+Nums = new Array[N] : 카드
+
+function solution(n, k)
+    # N개 중 3개를 추출한 리스트
+    list = makeComb(Nums, 3)
+
+    # 내림차순 정렬
+    list.sort((a, b) => b - a)
+
+    let prev = -1
+    let count = 0
+
+    for v of list:
+        # 이전 값과 다르면 count++
+        if (prev !== v) count++;
+
+        # count가 k번째를 가리키면 종료
+        if (k === count) return v;
+
+        # 이전 값 업데이트
+        prev = v
+
+# 숫자 배열 arr와 반환할 개수 c를 받아 조합 반환
+function makeComb(arr, c):
+    # 반환할 배열 선언
+    const res = [];
+
+    # 재귀 호출 시, 1개면 반환
+    if (c === 1) return arr.map(k => [k])
+
+    # [1, 2, 3, 4] 이면, 1을 빼고 [2,3,4] 중 c - 1 개를 뽑는 로직
+    arr.forEach((v, i, origin) => {
+        # i 이후의 값들만 추출.
+        const rest = origin.slice(i + 1) 
+        const comb = makeComb(rest, c - 1)
+        res.push()
+    })
+    # for문 중 해당되는 값은 반드시 포함.
+
+[1, 2, 3]
+# 2개 -> [1, 2]
+# 3개 중 2개 -> [[2], [3]] -> [[1, 2], [1, 3], [2, 3]]
