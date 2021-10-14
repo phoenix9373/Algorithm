@@ -11,36 +11,57 @@ function quickSort(arr) {
 
   if (L < 2) return arr;
 
-  let l = 0;
-  let m = Math.floor(L / 2);
-  let r = L - 1;
+  const left = [];
+  const right = [];
+  const pivot = [arr[0]];
 
-  const pivot = arr[m];
-
-  while (l < r) {
-    while (arr[l] < pivot) l++;
-
-    while (arr[r] > pivot) r--;
-
-    if (l <= r) {
-      let swap = arr[l];
-      arr[l] = arr[r];
-      arr[r] = swap;
-      l++;
-      r--;
-    }
+  for (let i = 1; i < L; i++) {
+    if (arr[i] < pivot[0]) left.push(arr[i]);
+    if (arr[i] > pivot[0]) right.push(arr[i]);
+    if (arr[i] === pivot[0]) pivot.push(arr[i]);
   }
 
-  return quickSort(arr.slice(0, r + 1)).concat(quickSort(arr.slice(r + 1)));
+  return quickSort(left).concat(pivot, quickSort(right));
 }
 
-function solution(arr1, arr2) {
-  arr1 = quickSort(arr1);
-  arr2 = quickSort(arr2);
+function solution(firstArray, secondArray) {
+  firstArray = quickSort(firstArray);
+  secondArray = quickSort(secondArray);
 
   const answer = [];
 
-  while ()
+  let i = 0;
+  let j = 0;
+
+  while (i < firstArray.length || j < secondArray.length) {
+    if (i >= firstArray.length) {
+      while (j < secondArray.length) {
+        answer.push(secondArray[j]);
+        j++;
+      }
+      break;
+    }
+
+    if (j >= secondArray.length) {
+      while (i < firstArray.length) {
+        answer.push(firstArray[i]);
+        i++;
+      }
+      break;
+    }
+
+    if (firstArray[i] >= secondArray[j]) {
+      answer.push(secondArray[j]);
+      j++;
+    }
+
+    if (secondArray[j] > firstArray[i]) {
+      answer.push(firstArray[i]);
+      i++;
+    }
+  }
+
+  return answer;
 }
 
 let a = [1, 3, 9, 5, 2];
@@ -52,5 +73,16 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-console.log(solution(a, b));
+// check
+const mergedArray = quickSort(bigA.concat(bigB));
+const resultArray = solution(bigA, bigB);
+
+let count = 0;
+for (let i = 0; i < mergedArray.length; i++) {
+  if (mergedArray[i] !== resultArray[i]) {
+    count++;
+  }
+}
+
+console.log("wrong case count: ", count);
 console.timeEnd("for");
